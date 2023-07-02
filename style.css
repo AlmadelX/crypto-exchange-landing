@@ -8,27 +8,27 @@ body {
 .container {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
-.header {
+.header, .hero {
   background-color: #1F2937;
 }
 
 .header-content {
   height: 70px;
-  padding: 0 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
+.header-logo-text {
   font-size: 24px;
   font-weight: 700;
   color: #F9FAF8;
 }
 
-.navigation {
+.header-navigation {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -36,8 +36,56 @@ body {
   gap: 16px;
 }
 
-.navigation a {
+.header-link-text, .hero-secondary-text {
   text-decoration: none;
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.hero {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
+}
+
+.hero-info {
+  flex: 1;
+}
+
+.hero-main-text {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.hero-secondary-text {
+  margin: 0 0 16px;
+}
+
+.hero-info button {
+  cursor: pointer;
+  padding: 8px 32px;
+  border-radius: 8px;
+  background: #3882F6;
+  border: none;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hero-image-container {
+  flex: 1;
+  font-size: 0;
+}
+
+.hero-image-container img {
+  width: 100%;
 }
