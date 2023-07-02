@@ -36,8 +36,11 @@ body {
   gap: 16px;
 }
 
-.header-link-text, .hero-secondary-text {
+.header-link-text {
   text-decoration: none;
+}
+
+.header-link-text, .hero-secondary-text {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -88,4 +91,42 @@ body {
 
 .hero-image-container img {
   width: 100%;
+}
+
+.info {
+  background-color: #F9FAF8;
+  min-height: 500px;
+}
+
+.info-content {
+  padding: 32px;
+}
+
+.info-header-text {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.info-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  border: 4px solid #3882F6;
+}
+
+.info-card p {
+  font-size: 18px;
+  text-align: center;
+  margin: 16px 0 0;
+  color: #1F2937;
 }
