@@ -1,2 +1,4 @@
 # crypto-exchange-landing
-Web development practice.
+*Project for practicing web development.*
+
+- Flexbox
