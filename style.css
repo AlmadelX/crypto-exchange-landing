@@ -11,12 +11,12 @@ body {
   padding: 0 16px;
 }
 
-.header, .hero {
+.header {
   background-color: #1F2937;
+  height: 70px;
 }
 
 .header-content {
-  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,6 +46,7 @@ body {
 }
 
 .hero {
+  background-color: #1F2937;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -129,4 +130,31 @@ body {
   text-align: center;
   margin: 16px 0 0;
   color: #1F2937;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-content {
+  max-width: 800px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: end;
+  margin: 0 32px 0 0;
 }
