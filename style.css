@@ -193,3 +193,47 @@ h1, h2 {
   text-align: end;
   margin-right: 32px;
 }
+
+/* Call to action */
+
+.cta {
+  background-color: #F9FAF8;
+}
+
+.cta-content {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-frame {
+  flex: 1;
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 32px 128px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-info h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.cta-info p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.cta-frame button {
+  cursor: pointer;
+  padding: 0 32px;
+  border-radius: 8px;
+  background: #3882F6;
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: 700;
+}
